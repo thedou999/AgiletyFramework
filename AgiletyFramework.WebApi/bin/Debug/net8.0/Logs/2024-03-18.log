@@ -1,0 +1,133 @@
+
+2024-03-18 09:48:09,445 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-18 09:48:09,523 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-18 09:48:09,527 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-18 09:48:09,529 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-18 09:48:15,892 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (21ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-03-18 09:48:31,994 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-18 09:48:32,069 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-18 09:48:32,072 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-18 09:48:32,074 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-18 09:48:35,662 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-03-18 09:48:50,795 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-18 09:48:50,866 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-18 09:48:50,869 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-18 09:48:50,871 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-18 09:48:55,042 [10] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-03-18 10:38:35,567 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-18 10:38:35,647 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-18 10:38:35,651 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-18 10:38:35,653 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-18 10:39:49,412 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (24ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-03-18 10:39:52,865 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-03-18 10:42:28,502 [19] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-03-18 10:42:29,832 [19] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-03-18 16:26:48,033 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-18 16:26:48,116 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-18 16:26:48,123 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-18 16:26:48,126 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-18 16:32:54,489 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-18 16:32:54,572 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-18 16:32:54,575 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-18 16:32:54,577 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-18 16:35:08,003 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-18 16:35:08,076 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-18 16:35:08,080 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-18 16:35:08,082 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-18 16:36:04,745 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-18 16:36:04,820 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-18 16:36:04,825 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-18 16:36:04,827 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-18 16:36:14,885 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (58ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-03-18 16:41:41,626 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-18 16:41:41,726 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-18 16:41:41,730 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-18 16:41:41,734 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-18 16:42:37,294 [5] INFO  AgiletyFramework.Support.AutofacAop.CustomLogInterceptor [29] - before invocation 
+
+2024-03-18 16:42:37,751 [5] INFO  AgiletyFramework.Support.AutofacAop.CustomLogInterceptor [31] - after invocation 
+
+2024-03-18 16:42:38,208 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-03-18 18:04:46,227 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-18 18:04:46,376 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-18 18:04:46,381 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-18 18:04:46,385 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-18 18:04:54,089 [7] INFO  AgiletyFramework.Support.AutofacAop.CustomLogInterceptor [29] - before invocation 
+
+2024-03-18 18:04:55,289 [7] INFO  AgiletyFramework.Support.AutofacAop.CustomLogInterceptor [31] - after invocation 

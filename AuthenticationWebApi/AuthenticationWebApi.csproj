@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgiletyFramework.BusinessServices\AgiletyFramework.BusinessServices.csproj" />
+    <ProjectReference Include="..\AgiletyFramework.Commons\AgiletyFramework.Commons.csproj" />
+    <ProjectReference Include="..\AgiletyFramework.IBusinessServices\AgiletyFramework.IBusinessServices.csproj" />
+    <ProjectReference Include="..\AgiletyFramework.WebCore\AgiletyFramework.WebCore.csproj" />
+    <ProjectReference Include="..\EasyDESEncrypt\EasyDESEncrypt.csproj" />
+  </ItemGroup>
+
+</Project>

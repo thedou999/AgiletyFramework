@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AgiletyFramework.ModelDto/1.0.0": {
+        "runtime": {
+          "AgiletyFramework.ModelDto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AgiletyFramework.ModelDto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

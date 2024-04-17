@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4ifcvhAm6yRvr48Ygk8bVbuDBeYo9pBnBIU31xYQseMc6Z+cnZKGELtymSxh6yGKgOTK+zCL82SIW61Ds1vFcg==",
+  "success": true,
+  "projectFilePath": "D:\\programSoftware\\file\\dotNet\\ASP.NET Core\\AgiletyFramework\\test\\test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

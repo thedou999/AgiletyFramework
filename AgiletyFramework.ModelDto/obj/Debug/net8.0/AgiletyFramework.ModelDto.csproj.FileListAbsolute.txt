@@ -1,0 +1,11 @@
+D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.ModelDto\bin\Debug\net8.0\AgiletyFramework.ModelDto.deps.json
+D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.ModelDto\bin\Debug\net8.0\AgiletyFramework.ModelDto.dll
+D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.ModelDto\bin\Debug\net8.0\AgiletyFramework.ModelDto.pdb
+D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.ModelDto\obj\Debug\net8.0\AgiletyFramework.ModelDto.GeneratedMSBuildEditorConfig.editorconfig
+D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.ModelDto\obj\Debug\net8.0\AgiletyFramework.ModelDto.AssemblyInfoInputs.cache
+D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.ModelDto\obj\Debug\net8.0\AgiletyFramework.ModelDto.AssemblyInfo.cs
+D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.ModelDto\obj\Debug\net8.0\AgiletyFramework.ModelDto.csproj.CoreCompileInputs.cache
+D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.ModelDto\obj\Debug\net8.0\AgiletyFramework.ModelDto.dll
+D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.ModelDto\obj\Debug\net8.0\refint\AgiletyFramework.ModelDto.dll
+D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.ModelDto\obj\Debug\net8.0\AgiletyFramework.ModelDto.pdb
+D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.ModelDto\obj\Debug\net8.0\ref\AgiletyFramework.ModelDto.dll

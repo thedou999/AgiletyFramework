@@ -1,0 +1,293 @@
+[
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.FileController",
+    "Method": "GetImage",
+    "RelativePath": "api/File/GetImage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imagePath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.FileController",
+    "Method": "UploadFiles",
+    "RelativePath": "api/File/UploadFiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ContentType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ContentDisposition",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Headers",
+        "Type": "Microsoft.AspNetCore.Http.IHeaderDictionary",
+        "IsRequired": false
+      },
+      {
+        "Name": "Length",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.LogController",
+    "Method": "GetLogPage",
+    "RelativePath": "api/Log/GetLogPage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageIndex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchString",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AgiletyFramework.Commons.ApiDataResult\u00601[[AgiletyFramework.IBusinessServices.PagingData\u00601[[ModelDto.LogDto, ModelDto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], AgiletyFramework.IBusinessServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.LogController",
+    "Method": "TestSystemLog",
+    "RelativePath": "api/Log/TestSystemLog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "AgiletyFramework.Commons.ApiResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.MenuController",
+    "Method": "AddMenuTestAsync",
+    "RelativePath": "api/Menu/AddMenuTest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.MenuController",
+    "Method": "DeleteMenuTest",
+    "RelativePath": "api/Menu/DeleteMenuTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.MenuController",
+    "Method": "GetAllMenu",
+    "RelativePath": "api/Menu/GetAllMenu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.RoleController",
+    "Method": "AddMenuToRoleTestAsync",
+    "RelativePath": "api/Role/AddMenuToRoleTest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.RoleController",
+    "Method": "AddRoleTestAsync",
+    "RelativePath": "api/Role/AddRoleTest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.RoleController",
+    "Method": "GetAllRoleWithMenuTextAsync",
+    "RelativePath": "api/Role/GetAllRoleWithMenuText",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.TestController",
+    "Method": "DbContextTest",
+    "RelativePath": "api/Test/DbContextTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addUserDto",
+        "Type": "ModelDto.AddUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AgiletyFramework.Commons.ApiDataResult\u00601[[ModelDto.UserDto, ModelDto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.UserController",
+    "Method": "AuthenrizationTest",
+    "RelativePath": "api/User/AuthenrizationTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.UserController",
+    "Method": "GetAllUser",
+    "RelativePath": "api/User/GetAllUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "AgiletyFramework.Commons.ApiDataResult\u00601[[System.Collections.Generic.ICollection\u00601[[ModelDto.UserDto, ModelDto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.UserController",
+    "Method": "GetUserMenus",
+    "RelativePath": "api/User/GetUserMenus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AgiletyFramework.WebApi.Controllers.UserController",
+    "Method": "GetUserPageAsync",
+    "RelativePath": "api/User/GetUserPage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageindex",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchString",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AgiletyFramework.Commons.ApiDataResult\u00601[[AgiletyFramework.IBusinessServices.PagingData\u00601[[ModelDto.UserDto, ModelDto, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], AgiletyFramework.IBusinessServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

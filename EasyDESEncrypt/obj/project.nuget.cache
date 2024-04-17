@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xhOfvaA9SgBWu4MIBPCNPwSZ3B5E05V4zIvhE0SxxEn1hFAMwvM6jG3qT8Fy8ZzpmiqPaImJ9wl+V+2mP3oH7Q==",
+  "success": true,
+  "projectFilePath": "D:\\programSoftware\\file\\dotNet\\ASP.NET Core\\AgiletyFramework\\EasyDESEncrypt\\EasyDESEncrypt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

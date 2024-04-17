@@ -1,0 +1,688 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AuthenticationWebApi\\Authentication.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.BusinessServices\\AgiletyFramework.BusinessServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.BusinessServices\\AgiletyFramework.BusinessServices.csproj",
+        "projectName": "AgiletyFramework.BusinessServices",
+        "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.BusinessServices\\AgiletyFramework.BusinessServices.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.BusinessServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programSoftware\\ide\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.DBModels\\AgiletyFramework.DBModels.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.DBModels\\AgiletyFramework.DBModels.csproj"
+              },
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.IBusinessServices\\AgiletyFramework.IBusinessServices.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.IBusinessServices\\AgiletyFramework.IBusinessServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.DBModels\\AgiletyFramework.DBModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.DBModels\\AgiletyFramework.DBModels.csproj",
+        "projectName": "AgiletyFramework.DBModels",
+        "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.DBModels\\AgiletyFramework.DBModels.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.DBModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programSoftware\\ide\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.IBusinessServices\\AgiletyFramework.IBusinessServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.IBusinessServices\\AgiletyFramework.IBusinessServices.csproj",
+        "projectName": "AgiletyFramework.IBusinessServices",
+        "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.IBusinessServices\\AgiletyFramework.IBusinessServices.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.IBusinessServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programSoftware\\ide\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.DBModels\\AgiletyFramework.DBModels.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.DBModels\\AgiletyFramework.DBModels.csproj"
+              },
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AutofacAop\\AutofacAop.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AutofacAop\\AutofacAop.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.ModelDto\\ModelDto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.ModelDto\\ModelDto.csproj",
+        "projectName": "ModelDto",
+        "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.ModelDto\\ModelDto.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.ModelDto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programSoftware\\ide\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.DBModels\\AgiletyFramework.DBModels.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.DBModels\\AgiletyFramework.DBModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebCore\\AgiletyFramework.WebCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebCore\\AgiletyFramework.WebCore.csproj",
+        "projectName": "AgiletyFramework.WebCore",
+        "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebCore\\AgiletyFramework.WebCore.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programSoftware\\ide\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.BusinessServices\\AgiletyFramework.BusinessServices.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.BusinessServices\\AgiletyFramework.BusinessServices.csproj"
+              },
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.IBusinessServices\\AgiletyFramework.IBusinessServices.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.IBusinessServices\\AgiletyFramework.IBusinessServices.csproj"
+              },
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.ModelDto\\ModelDto.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.ModelDto\\ModelDto.csproj"
+              },
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\EasyDESEncrypt\\EasyDESEncrypt.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\EasyDESEncrypt\\EasyDESEncrypt.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AuthenticationWebApi\\Authentication.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AuthenticationWebApi\\Authentication.WebApi.csproj",
+        "projectName": "Authentication.WebApi",
+        "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AuthenticationWebApi\\Authentication.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AuthenticationWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programSoftware\\ide\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.BusinessServices\\AgiletyFramework.BusinessServices.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.BusinessServices\\AgiletyFramework.BusinessServices.csproj"
+              },
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.IBusinessServices\\AgiletyFramework.IBusinessServices.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.IBusinessServices\\AgiletyFramework.IBusinessServices.csproj"
+              },
+              "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebCore\\AgiletyFramework.WebCore.csproj": {
+                "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebCore\\AgiletyFramework.WebCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AutofacAop\\AutofacAop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AutofacAop\\AutofacAop.csproj",
+        "projectName": "AutofacAop",
+        "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AutofacAop\\AutofacAop.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\AutofacAop\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programSoftware\\ide\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\EasyDESEncrypt\\EasyDESEncrypt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\EasyDESEncrypt\\EasyDESEncrypt.csproj",
+        "projectName": "EasyDESEncrypt",
+        "projectPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\EasyDESEncrypt\\EasyDESEncrypt.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\programSoftware\\file\\c#\\ASP.NET Core\\AgiletyFramework\\EasyDESEncrypt\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\programSoftware\\ide\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

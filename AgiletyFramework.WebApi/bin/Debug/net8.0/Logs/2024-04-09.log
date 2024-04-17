@@ -1,0 +1,475 @@
+
+2024-04-09 16:22:47,264 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 16:22:47,348 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 16:22:47,351 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 16:22:47,353 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 16:23:09,698 [9] WARN  Microsoft.EntityFrameworkCore.Query [?] - Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. 
+
+2024-04-09 16:23:09,926 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[CreateTime], [r].[ModifyTime], [r].[RoleName], [r].[Status], [r0].[RoleId], [r0].[MenuId], [r0].[CreateTime], [r0].[ModifyTime], [r0].[Status], [t].[RoleId], [t].[MenuId], [t].[CreateTime], [t].[ModifyTime], [t].[Status], [t].[Id], [t].[CreateTime0], [t].[Icon], [t].[IsLeafNode], [t].[MenuText], [t].[MenuType], [t].[ModifyTime0], [t].[ParentId], [t].[Status0], [t].[VueFilePath], [t].[WebUrl], [t].[WebUrlName]
+FROM [Role] AS [r]
+LEFT JOIN [RoleMenuMap] AS [r0] ON [r].[Id] = [r0].[RoleId]
+LEFT JOIN (
+    SELECT [r1].[RoleId], [r1].[MenuId], [r1].[CreateTime], [r1].[ModifyTime], [r1].[Status], [m].[Id], [m].[CreateTime] AS [CreateTime0], [m].[Icon], [m].[IsLeafNode], [m].[MenuText], [m].[MenuType], [m].[ModifyTime] AS [ModifyTime0], [m].[ParentId], [m].[Status] AS [Status0], [m].[VueFilePath], [m].[WebUrl], [m].[WebUrlName]
+    FROM [RoleMenuMap] AS [r1]
+    INNER JOIN [Menu] AS [m] ON [r1].[MenuId] = [m].[Id]
+) AS [t] ON [r].[Id] = [t].[RoleId]
+ORDER BY [r].[Id], [r0].[RoleId], [r0].[MenuId], [t].[RoleId], [t].[MenuId] 
+
+2024-04-09 16:24:30,975 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 16:24:31,054 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 16:24:31,060 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 16:24:31,062 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 16:24:49,084 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[CreateTime], [r].[ModifyTime], [r].[RoleName], [r].[Status]
+FROM [Role] AS [r] 
+
+2024-04-09 16:24:49,996 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[Id], [m].[CreateTime], [m].[Icon], [m].[IsLeafNode], [m].[MenuText], [m].[MenuType], [m].[ModifyTime], [m].[ParentId], [m].[Status], [m].[VueFilePath], [m].[WebUrl], [m].[WebUrlName]
+FROM [Menu] AS [m] 
+
+2024-04-09 16:25:11,562 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (20ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime2), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Int32), @p5='?' (DbType = Guid), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = DateTime2), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Int32), @p12='?' (DbType = DateTime2), @p13='?' (DbType = DateTime2), @p14='?' (DbType = Int32), @p15='?' (DbType = Guid), @p16='?' (DbType = Int32), @p17='?' (DbType = DateTime2), @p18='?' (DbType = DateTime2), @p19='?' (DbType = Int32), @p20='?' (DbType = Guid), @p21='?' (DbType = Int32), @p22='?' (DbType = DateTime2), @p23='?' (DbType = DateTime2), @p24='?' (DbType = Int32), @p25='?' (DbType = Guid), @p26='?' (DbType = Int32), @p27='?' (DbType = DateTime2), @p28='?' (DbType = DateTime2), @p29='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RoleMenuMap] ([MenuId], [RoleId], [CreateTime], [ModifyTime], [Status])
+VALUES (@p0, @p1, @p2, @p3, @p4),
+(@p5, @p6, @p7, @p8, @p9),
+(@p10, @p11, @p12, @p13, @p14),
+(@p15, @p16, @p17, @p18, @p19),
+(@p20, @p21, @p22, @p23, @p24),
+(@p25, @p26, @p27, @p28, @p29); 
+
+2024-04-09 16:25:26,237 [5] WARN  Microsoft.EntityFrameworkCore.Query [?] - Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. 
+
+2024-04-09 16:25:26,254 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[CreateTime], [r].[ModifyTime], [r].[RoleName], [r].[Status], [r0].[RoleId], [r0].[MenuId], [r0].[CreateTime], [r0].[ModifyTime], [r0].[Status], [t].[RoleId], [t].[MenuId], [t].[CreateTime], [t].[ModifyTime], [t].[Status], [t].[Id], [t].[CreateTime0], [t].[Icon], [t].[IsLeafNode], [t].[MenuText], [t].[MenuType], [t].[ModifyTime0], [t].[ParentId], [t].[Status0], [t].[VueFilePath], [t].[WebUrl], [t].[WebUrlName]
+FROM [Role] AS [r]
+LEFT JOIN [RoleMenuMap] AS [r0] ON [r].[Id] = [r0].[RoleId]
+LEFT JOIN (
+    SELECT [r1].[RoleId], [r1].[MenuId], [r1].[CreateTime], [r1].[ModifyTime], [r1].[Status], [m].[Id], [m].[CreateTime] AS [CreateTime0], [m].[Icon], [m].[IsLeafNode], [m].[MenuText], [m].[MenuType], [m].[ModifyTime] AS [ModifyTime0], [m].[ParentId], [m].[Status] AS [Status0], [m].[VueFilePath], [m].[WebUrl], [m].[WebUrlName]
+    FROM [RoleMenuMap] AS [r1]
+    INNER JOIN [Menu] AS [m] ON [r1].[MenuId] = [m].[Id]
+) AS [t] ON [r].[Id] = [t].[RoleId]
+ORDER BY [r].[Id], [r0].[RoleId], [r0].[MenuId], [t].[RoleId], [t].[MenuId] 
+
+2024-04-09 16:26:11,491 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 16:26:11,580 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 16:26:11,583 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 16:26:11,584 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 16:26:20,481 [5] WARN  Microsoft.EntityFrameworkCore.Query [?] - Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. 
+
+2024-04-09 16:26:20,657 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (19ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [r].[Id], [r].[CreateTime], [r].[ModifyTime], [r].[RoleName], [r].[Status], [r0].[RoleId], [r0].[MenuId], [r0].[CreateTime], [r0].[ModifyTime], [r0].[Status], [t].[RoleId], [t].[MenuId], [t].[CreateTime], [t].[ModifyTime], [t].[Status], [t].[Id], [t].[CreateTime0], [t].[Icon], [t].[IsLeafNode], [t].[MenuText], [t].[MenuType], [t].[ModifyTime0], [t].[ParentId], [t].[Status0], [t].[VueFilePath], [t].[WebUrl], [t].[WebUrlName]
+FROM [Role] AS [r]
+LEFT JOIN [RoleMenuMap] AS [r0] ON [r].[Id] = [r0].[RoleId]
+LEFT JOIN (
+    SELECT [r1].[RoleId], [r1].[MenuId], [r1].[CreateTime], [r1].[ModifyTime], [r1].[Status], [m].[Id], [m].[CreateTime] AS [CreateTime0], [m].[Icon], [m].[IsLeafNode], [m].[MenuText], [m].[MenuType], [m].[ModifyTime] AS [ModifyTime0], [m].[ParentId], [m].[Status] AS [Status0], [m].[VueFilePath], [m].[WebUrl], [m].[WebUrlName]
+    FROM [RoleMenuMap] AS [r1]
+    INNER JOIN [Menu] AS [m] ON [r1].[MenuId] = [m].[Id]
+) AS [t] ON [r].[Id] = [t].[RoleId]
+ORDER BY [r].[Id], [r0].[RoleId], [r0].[MenuId], [t].[RoleId], [t].[MenuId] 
+
+2024-04-09 20:59:24,389 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 20:59:24,498 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 20:59:24,502 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 20:59:24,504 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 21:00:26,454 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (37ms) [Parameters=[@__addUserDto_Name_0='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = @__addUserDto_Name_0 
+
+2024-04-09 21:00:48,944 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CreateTime], [r].[ModifyTime], [r].[RoleName], [r].[Status]
+FROM [Role] AS [r]
+WHERE [r].[RoleName] = N'GeneralUser' 
+
+2024-04-09 21:04:23,391 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 21:04:23,474 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 21:04:23,478 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 21:04:23,481 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 21:04:45,815 [13] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (36ms) [Parameters=[@__addUserDto_Name_0='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = @__addUserDto_Name_0 
+
+2024-04-09 21:04:55,885 [13] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CreateTime], [r].[ModifyTime], [r].[RoleName], [r].[Status]
+FROM [Role] AS [r]
+WHERE [r].[RoleName] = N'GeneralUser' 
+
+2024-04-09 21:05:13,118 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 21:05:13,227 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 21:05:13,232 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 21:05:13,234 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 21:06:44,642 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 21:06:44,752 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 21:06:44,755 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 21:06:44,757 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 21:09:10,708 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 21:09:10,800 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 21:09:10,803 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 21:09:10,804 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 21:09:44,514 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (33ms) [Parameters=[@__addUserDto_Name_0='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = @__addUserDto_Name_0 
+
+2024-04-09 21:09:47,693 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CreateTime], [r].[ModifyTime], [r].[RoleName], [r].[Status]
+FROM [Role] AS [r]
+WHERE [r].[RoleName] = N'GeneralUser' 
+
+2024-04-09 21:09:59,022 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 20), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [User] ([Address], [CreateTime], [Email], [Gender], [Imageurl], [LastLoginTime], [Mobile], [ModifyTime], [Name], [Password], [Phone], [QQ], [Status], [UserType], [WeChat])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14); 
+
+2024-04-09 21:09:59,042 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (3ms) [Parameters=[@p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (DbType = DateTime2), @p18='?' (DbType = DateTime2), @p19='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserRoleMap] ([RoleId], [UserId], [CreateTime], [ModifyTime], [Status])
+VALUES (@p15, @p16, @p17, @p18, @p19); 
+
+2024-04-09 21:10:45,987 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 32. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Data.Roles.Users.Roles.Users.Roles.Users.Roles.Users.Roles.Users.Roles.Users.Roles.Users.Roles.Id.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.SystemTextJsonResultExecutor.ExecuteAsync(ActionContext context, JsonResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-09 21:11:57,459 [3] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (9ms) [Parameters=[@__addUserDto_Name_0='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = @__addUserDto_Name_0 
+
+2024-04-09 21:11:58,671 [3] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CreateTime], [r].[ModifyTime], [r].[RoleName], [r].[Status]
+FROM [Role] AS [r]
+WHERE [r].[RoleName] = N'GeneralUser' 
+
+2024-04-09 21:12:00,617 [3] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 20), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [User] ([Address], [CreateTime], [Email], [Gender], [Imageurl], [LastLoginTime], [Mobile], [ModifyTime], [Name], [Password], [Phone], [QQ], [Status], [UserType], [WeChat])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14); 
+
+2024-04-09 21:12:00,624 [3] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (3ms) [Parameters=[@p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (DbType = DateTime2), @p18='?' (DbType = DateTime2), @p19='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserRoleMap] ([RoleId], [UserId], [CreateTime], [ModifyTime], [Status])
+VALUES (@p15, @p16, @p17, @p18, @p19); 
+
+2024-04-09 21:13:14,868 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 21:13:14,957 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 21:13:14,962 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 21:13:14,965 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 21:13:34,917 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (35ms) [Parameters=[@__addUserDto_Name_0='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = @__addUserDto_Name_0 
+
+2024-04-09 21:13:36,314 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[CreateTime], [r].[ModifyTime], [r].[RoleName], [r].[Status]
+FROM [Role] AS [r]
+WHERE [r].[RoleName] = N'GeneralUser' 
+
+2024-04-09 21:13:38,168 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (Size = 20), @p9='?' (Size = 4000), @p10='?' (Size = 4000), @p11='?' (Size = 4000), @p12='?' (DbType = Int32), @p13='?' (DbType = Int32), @p14='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [User] ([Address], [CreateTime], [Email], [Gender], [Imageurl], [LastLoginTime], [Mobile], [ModifyTime], [Name], [Password], [Phone], [QQ], [Status], [UserType], [WeChat])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14); 
+
+2024-04-09 21:13:38,188 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (3ms) [Parameters=[@p15='?' (DbType = Int32), @p16='?' (DbType = Int32), @p17='?' (DbType = DateTime2), @p18='?' (DbType = DateTime2), @p19='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [UserRoleMap] ([RoleId], [UserId], [CreateTime], [ModifyTime], [Status])
+VALUES (@p15, @p16, @p17, @p18, @p19); 
+
+2024-04-09 21:14:22,605 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 21:14:22,797 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 21:14:22,801 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 21:14:22,803 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 21:14:33,443 [7] WARN  Microsoft.EntityFrameworkCore.Query [?] - Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. 
+
+2024-04-09 21:14:33,689 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (39ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat], [t0].[UserId], [t0].[RoleId], [t0].[CreateTime], [t0].[ModifyTime], [t0].[Status], [t0].[Id], [t0].[CreateTime0], [t0].[ModifyTime0], [t0].[RoleName], [t0].[Status0], [t0].[RoleId0], [t0].[MenuId], [t0].[CreateTime1], [t0].[ModifyTime1], [t0].[Status1], [t0].[Id0], [t0].[CreateTime00], [t0].[Icon], [t0].[IsLeafNode], [t0].[MenuText], [t0].[MenuType], [t0].[ModifyTime00], [t0].[ParentId], [t0].[Status00], [t0].[VueFilePath], [t0].[WebUrl], [t0].[WebUrlName]
+FROM [User] AS [u]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreateTime], [u0].[ModifyTime], [u0].[Status], [r].[Id], [r].[CreateTime] AS [CreateTime0], [r].[ModifyTime] AS [ModifyTime0], [r].[RoleName], [r].[Status] AS [Status0], [t].[RoleId] AS [RoleId0], [t].[MenuId], [t].[CreateTime] AS [CreateTime1], [t].[ModifyTime] AS [ModifyTime1], [t].[Status] AS [Status1], [t].[Id] AS [Id0], [t].[CreateTime0] AS [CreateTime00], [t].[Icon], [t].[IsLeafNode], [t].[MenuText], [t].[MenuType], [t].[ModifyTime0] AS [ModifyTime00], [t].[ParentId], [t].[Status0] AS [Status00], [t].[VueFilePath], [t].[WebUrl], [t].[WebUrlName]
+    FROM [UserRoleMap] AS [u0]
+    INNER JOIN [Role] AS [r] ON [u0].[RoleId] = [r].[Id]
+    LEFT JOIN (
+        SELECT [r0].[RoleId], [r0].[MenuId], [r0].[CreateTime], [r0].[ModifyTime], [r0].[Status], [m].[Id], [m].[CreateTime] AS [CreateTime0], [m].[Icon], [m].[IsLeafNode], [m].[MenuText], [m].[MenuType], [m].[ModifyTime] AS [ModifyTime0], [m].[ParentId], [m].[Status] AS [Status0], [m].[VueFilePath], [m].[WebUrl], [m].[WebUrlName]
+        FROM [RoleMenuMap] AS [r0]
+        INNER JOIN [Menu] AS [m] ON [r0].[MenuId] = [m].[Id]
+    ) AS [t] ON [r].[Id] = [t].[RoleId]
+) AS [t0] ON [u].[Id] = [t0].[UserId]
+ORDER BY [u].[Id], [t0].[UserId], [t0].[RoleId], [t0].[Id], [t0].[RoleId0], [t0].[MenuId] 
+
+2024-04-09 21:14:58,459 [7] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgiletyFramework.WebApi.Controllers.UserController.GetUserMenus(String userName) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi\Controllers\UserController.cs:line 155
+   at lambda_method441(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-09 21:15:14,312 [18] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat], [t0].[UserId], [t0].[RoleId], [t0].[CreateTime], [t0].[ModifyTime], [t0].[Status], [t0].[Id], [t0].[CreateTime0], [t0].[ModifyTime0], [t0].[RoleName], [t0].[Status0], [t0].[RoleId0], [t0].[MenuId], [t0].[CreateTime1], [t0].[ModifyTime1], [t0].[Status1], [t0].[Id0], [t0].[CreateTime00], [t0].[Icon], [t0].[IsLeafNode], [t0].[MenuText], [t0].[MenuType], [t0].[ModifyTime00], [t0].[ParentId], [t0].[Status00], [t0].[VueFilePath], [t0].[WebUrl], [t0].[WebUrlName]
+FROM [User] AS [u]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreateTime], [u0].[ModifyTime], [u0].[Status], [r].[Id], [r].[CreateTime] AS [CreateTime0], [r].[ModifyTime] AS [ModifyTime0], [r].[RoleName], [r].[Status] AS [Status0], [t].[RoleId] AS [RoleId0], [t].[MenuId], [t].[CreateTime] AS [CreateTime1], [t].[ModifyTime] AS [ModifyTime1], [t].[Status] AS [Status1], [t].[Id] AS [Id0], [t].[CreateTime0] AS [CreateTime00], [t].[Icon], [t].[IsLeafNode], [t].[MenuText], [t].[MenuType], [t].[ModifyTime0] AS [ModifyTime00], [t].[ParentId], [t].[Status0] AS [Status00], [t].[VueFilePath], [t].[WebUrl], [t].[WebUrlName]
+    FROM [UserRoleMap] AS [u0]
+    INNER JOIN [Role] AS [r] ON [u0].[RoleId] = [r].[Id]
+    LEFT JOIN (
+        SELECT [r0].[RoleId], [r0].[MenuId], [r0].[CreateTime], [r0].[ModifyTime], [r0].[Status], [m].[Id], [m].[CreateTime] AS [CreateTime0], [m].[Icon], [m].[IsLeafNode], [m].[MenuText], [m].[MenuType], [m].[ModifyTime] AS [ModifyTime0], [m].[ParentId], [m].[Status] AS [Status0], [m].[VueFilePath], [m].[WebUrl], [m].[WebUrlName]
+        FROM [RoleMenuMap] AS [r0]
+        INNER JOIN [Menu] AS [m] ON [r0].[MenuId] = [m].[Id]
+    ) AS [t] ON [r].[Id] = [t].[RoleId]
+) AS [t0] ON [u].[Id] = [t0].[UserId]
+ORDER BY [u].[Id], [t0].[UserId], [t0].[RoleId], [t0].[Id], [t0].[RoleId0], [t0].[MenuId] 
+
+2024-04-09 21:15:27,456 [18] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AgiletyFramework.WebApi.Controllers.UserController.GetUserMenus(String userName) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi\Controllers\UserController.cs:line 155
+   at lambda_method441(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-09 21:15:35,084 [13] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (26ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat], [t0].[UserId], [t0].[RoleId], [t0].[CreateTime], [t0].[ModifyTime], [t0].[Status], [t0].[Id], [t0].[CreateTime0], [t0].[ModifyTime0], [t0].[RoleName], [t0].[Status0], [t0].[RoleId0], [t0].[MenuId], [t0].[CreateTime1], [t0].[ModifyTime1], [t0].[Status1], [t0].[Id0], [t0].[CreateTime00], [t0].[Icon], [t0].[IsLeafNode], [t0].[MenuText], [t0].[MenuType], [t0].[ModifyTime00], [t0].[ParentId], [t0].[Status00], [t0].[VueFilePath], [t0].[WebUrl], [t0].[WebUrlName]
+FROM [User] AS [u]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreateTime], [u0].[ModifyTime], [u0].[Status], [r].[Id], [r].[CreateTime] AS [CreateTime0], [r].[ModifyTime] AS [ModifyTime0], [r].[RoleName], [r].[Status] AS [Status0], [t].[RoleId] AS [RoleId0], [t].[MenuId], [t].[CreateTime] AS [CreateTime1], [t].[ModifyTime] AS [ModifyTime1], [t].[Status] AS [Status1], [t].[Id] AS [Id0], [t].[CreateTime0] AS [CreateTime00], [t].[Icon], [t].[IsLeafNode], [t].[MenuText], [t].[MenuType], [t].[ModifyTime0] AS [ModifyTime00], [t].[ParentId], [t].[Status0] AS [Status00], [t].[VueFilePath], [t].[WebUrl], [t].[WebUrlName]
+    FROM [UserRoleMap] AS [u0]
+    INNER JOIN [Role] AS [r] ON [u0].[RoleId] = [r].[Id]
+    LEFT JOIN (
+        SELECT [r0].[RoleId], [r0].[MenuId], [r0].[CreateTime], [r0].[ModifyTime], [r0].[Status], [m].[Id], [m].[CreateTime] AS [CreateTime0], [m].[Icon], [m].[IsLeafNode], [m].[MenuText], [m].[MenuType], [m].[ModifyTime] AS [ModifyTime0], [m].[ParentId], [m].[Status] AS [Status0], [m].[VueFilePath], [m].[WebUrl], [m].[WebUrlName]
+        FROM [RoleMenuMap] AS [r0]
+        INNER JOIN [Menu] AS [m] ON [r0].[MenuId] = [m].[Id]
+    ) AS [t] ON [r].[Id] = [t].[RoleId]
+) AS [t0] ON [u].[Id] = [t0].[UserId]
+ORDER BY [u].[Id], [t0].[UserId], [t0].[RoleId], [t0].[Id], [t0].[RoleId0], [t0].[MenuId] 
+
+2024-04-09 21:16:39,997 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 21:16:40,083 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 21:16:40,086 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 21:16:40,089 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 21:16:51,429 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (32ms) [Parameters=[@__userName_0='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = @__userName_0 
+
+2024-04-09 21:18:44,288 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-09 21:18:44,363 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-09 21:18:44,366 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-09 21:18:44,367 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-09 21:19:02,012 [14] WARN  Microsoft.EntityFrameworkCore.Query [?] - Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'. 
+
+2024-04-09 21:19:02,244 [14] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat], [t0].[UserId], [t0].[RoleId], [t0].[CreateTime], [t0].[ModifyTime], [t0].[Status], [t0].[Id], [t0].[CreateTime0], [t0].[ModifyTime0], [t0].[RoleName], [t0].[Status0], [t0].[RoleId0], [t0].[MenuId], [t0].[CreateTime1], [t0].[ModifyTime1], [t0].[Status1], [t0].[Id0], [t0].[CreateTime00], [t0].[Icon], [t0].[IsLeafNode], [t0].[MenuText], [t0].[MenuType], [t0].[ModifyTime00], [t0].[ParentId], [t0].[Status00], [t0].[VueFilePath], [t0].[WebUrl], [t0].[WebUrlName]
+FROM [User] AS [u]
+LEFT JOIN (
+    SELECT [u0].[UserId], [u0].[RoleId], [u0].[CreateTime], [u0].[ModifyTime], [u0].[Status], [r].[Id], [r].[CreateTime] AS [CreateTime0], [r].[ModifyTime] AS [ModifyTime0], [r].[RoleName], [r].[Status] AS [Status0], [t].[RoleId] AS [RoleId0], [t].[MenuId], [t].[CreateTime] AS [CreateTime1], [t].[ModifyTime] AS [ModifyTime1], [t].[Status] AS [Status1], [t].[Id] AS [Id0], [t].[CreateTime0] AS [CreateTime00], [t].[Icon], [t].[IsLeafNode], [t].[MenuText], [t].[MenuType], [t].[ModifyTime0] AS [ModifyTime00], [t].[ParentId], [t].[Status0] AS [Status00], [t].[VueFilePath], [t].[WebUrl], [t].[WebUrlName]
+    FROM [UserRoleMap] AS [u0]
+    INNER JOIN [Role] AS [r] ON [u0].[RoleId] = [r].[Id]
+    LEFT JOIN (
+        SELECT [r0].[RoleId], [r0].[MenuId], [r0].[CreateTime], [r0].[ModifyTime], [r0].[Status], [m].[Id], [m].[CreateTime] AS [CreateTime0], [m].[Icon], [m].[IsLeafNode], [m].[MenuText], [m].[MenuType], [m].[ModifyTime] AS [ModifyTime0], [m].[ParentId], [m].[Status] AS [Status0], [m].[VueFilePath], [m].[WebUrl], [m].[WebUrlName]
+        FROM [RoleMenuMap] AS [r0]
+        INNER JOIN [Menu] AS [m] ON [r0].[MenuId] = [m].[Id]
+    ) AS [t] ON [r].[Id] = [t].[RoleId]
+) AS [t0] ON [u].[Id] = [t0].[UserId]
+ORDER BY [u].[Id], [t0].[UserId], [t0].[RoleId], [t0].[Id], [t0].[RoleId0], [t0].[MenuId] 

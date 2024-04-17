@@ -1,0 +1,40 @@
+
+2024-03-16 17:05:56,435 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-16 17:05:56,563 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-16 17:05:56,568 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-16 17:05:56,570 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-16 17:06:39,807 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-16 17:06:39,899 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-16 17:06:39,903 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-16 17:06:39,906 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-16 17:06:49,066 [5] INFO  AgiletyFramework.WebApi.Controllers.TestController [18] - AgiletyFramework.WebApi.Controllers.TestController 构造函数执行 
+
+2024-03-16 17:06:49,085 [5] WARN  AgiletyFramework.WebApi.Controllers.TestController [19] - AgiletyFramework.WebApi.Controllers.TestController 构造函数执行 
+
+2024-03-16 17:06:49,126 [5] INFO  AgiletyFramework.WebApi.Controllers.TestController [31] - AgiletyFramework.WebApi.Controllers.TestController 耶 
+
+2024-03-16 17:06:49,129 [5] WARN  AgiletyFramework.WebApi.Controllers.TestController [32] - AgiletyFramework.WebApi.Controllers.TestController 耶耶行 
+
+2024-03-16 17:16:56,540 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-16 17:16:56,604 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-16 17:16:56,606 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-16 17:16:56,608 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-16 17:19:16,706 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-16 17:19:16,794 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-16 17:19:16,798 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-16 17:19:16,799 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 

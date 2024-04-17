@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\programSoftware\\file\\dotNet\\ASP.NET Core\\AgiletyFramework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41089570-CA27-4151-A130-456D545BF378}|AgiletyFramework.WebCore\\AgiletyFramework.WebCore.csproj|d:\\programsoftware\\file\\dotnet\\asp.net core\\agiletyframework\\agiletyframework.webcore\\authenrizationextend\\authorizationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41089570-CA27-4151-A130-456D545BF378}|AgiletyFramework.WebCore\\AgiletyFramework.WebCore.csproj|solutionrelative:agiletyframework.webcore\\authenrizationextend\\authorizationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95805AE6-BF05-4781-B46D-BD2544588E45}|AuthenticationWebApi\\AuthenticationWebApi.csproj|d:\\programsoftware\\file\\dotnet\\asp.net core\\agiletyframework\\authenticationwebapi\\authenrizationapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95805AE6-BF05-4781-B46D-BD2544588E45}|AuthenticationWebApi\\AuthenticationWebApi.csproj|solutionrelative:authenticationwebapi\\authenrizationapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41089570-CA27-4151-A130-456D545BF378}|AgiletyFramework.WebCore\\AgiletyFramework.WebCore.csproj|d:\\programsoftware\\file\\dotnet\\asp.net core\\agiletyframework\\agiletyframework.webcore\\corsextend\\corsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41089570-CA27-4151-A130-456D545BF378}|AgiletyFramework.WebCore\\AgiletyFramework.WebCore.csproj|solutionrelative:agiletyframework.webcore\\corsextend\\corsextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F773B45C-0154-4DCB-A1AA-9A156A2D6763}|AgiletyFramework.WebApi\\AgiletyFramework.WebApi.csproj|d:\\programsoftware\\file\\dotnet\\asp.net core\\agiletyframework\\agiletyframework.webapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F773B45C-0154-4DCB-A1AA-9A156A2D6763}|AgiletyFramework.WebApi\\AgiletyFramework.WebApi.csproj|solutionrelative:agiletyframework.webapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 224,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorizationExtension.cs",
+              "DocumentMoniker": "D:\\programSoftware\\file\\dotNet\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebCore\\AuthenrizationExtend\\AuthorizationExtension.cs",
+              "RelativeDocumentMoniker": "AgiletyFramework.WebCore\\AuthenrizationExtend\\AuthorizationExtension.cs",
+              "ToolTip": "D:\\programSoftware\\file\\dotNet\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebCore\\AuthenrizationExtend\\AuthorizationExtension.cs",
+              "RelativeToolTip": "AgiletyFramework.WebCore\\AuthenrizationExtend\\AuthorizationExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:29:39.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CorsExtensions.cs",
+              "DocumentMoniker": "D:\\programSoftware\\file\\dotNet\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebCore\\CorsExtend\\CorsExtensions.cs",
+              "RelativeDocumentMoniker": "AgiletyFramework.WebCore\\CorsExtend\\CorsExtensions.cs",
+              "ToolTip": "D:\\programSoftware\\file\\dotNet\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebCore\\CorsExtend\\CorsExtensions.cs",
+              "RelativeToolTip": "AgiletyFramework.WebCore\\CorsExtend\\CorsExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:21:51.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\programSoftware\\file\\dotNet\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebApi\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "AgiletyFramework.WebApi\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\programSoftware\\file\\dotNet\\ASP.NET Core\\AgiletyFramework\\AgiletyFramework.WebApi\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "AgiletyFramework.WebApi\\Controllers\\MenuController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAB8AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:13:12.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenrizationApi.cs",
+              "DocumentMoniker": "D:\\programSoftware\\file\\dotNet\\ASP.NET Core\\AgiletyFramework\\AuthenticationWebApi\\AuthenrizationApi.cs",
+              "RelativeDocumentMoniker": "AuthenticationWebApi\\AuthenrizationApi.cs",
+              "ToolTip": "D:\\programSoftware\\file\\dotNet\\ASP.NET Core\\AgiletyFramework\\AuthenticationWebApi\\AuthenrizationApi.cs",
+              "RelativeToolTip": "AuthenticationWebApi\\AuthenrizationApi.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAH0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T06:12:22.964Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

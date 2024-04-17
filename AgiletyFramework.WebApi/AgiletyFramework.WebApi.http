@@ -1,0 +1,6 @@
+@AgiletyFramework.WebApi_HostAddress = http://localhost:5108
+
+GET {{AgiletyFramework.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

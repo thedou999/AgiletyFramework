@@ -1,0 +1,47 @@
+
+2024-03-17 14:10:23,646 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-17 14:10:23,730 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-17 14:10:23,733 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-17 14:10:23,735 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-17 14:10:29,188 [10] INFO  AgiletyFramework.WebApi.Controllers.TestController [21] - AgiletyFramework.WebApi.Controllers.TestController 构造函数执行 
+
+2024-03-17 14:10:29,200 [10] WARN  AgiletyFramework.WebApi.Controllers.TestController [22] - AgiletyFramework.WebApi.Controllers.TestController 构造函数执行 
+
+2024-03-17 14:10:30,005 [10] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-03-17 14:24:59,000 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-17 14:24:59,069 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-17 14:24:59,072 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-17 14:24:59,074 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-17 14:25:06,063 [7] INFO  AgiletyFramework.WebApi.Controllers.TestController [21] - AgiletyFramework.WebApi.Controllers.TestController 构造函数执行 
+
+2024-03-17 14:25:06,076 [7] WARN  AgiletyFramework.WebApi.Controllers.TestController [22] - AgiletyFramework.WebApi.Controllers.TestController 构造函数执行 
+
+2024-03-17 14:25:06,782 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-03-17 21:05:25,003 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-03-17 21:05:25,085 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-03-17 21:05:25,088 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-03-17 21:05:25,090 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-03-17 21:05:33,424 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[UserId], [u].[Address], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[Name], [u].[Password], [u].[Phone], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 

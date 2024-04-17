@@ -1,0 +1,399 @@
+
+2024-04-07 18:03:08,466 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-07 18:03:08,600 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-07 18:03:08,605 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-07 18:03:08,607 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-07 18:03:29,763 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.InvalidOperationException: Unable to resolve service for type 'AgiletyFramework.BusinessServices.LogService' while attempting to activate 'AgiletyFramework.WebApi.Controllers.LogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method442(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-07 18:07:47,179 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-07 18:07:47,288 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-07 18:07:47,293 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-07 18:07:47,306 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-07 18:07:52,729 [15] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.InvalidOperationException: Unable to resolve service for type 'AgiletyFramework.BusinessServices.LogService' while attempting to activate 'AgiletyFramework.WebApi.Controllers.LogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method443(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-07 18:08:38,199 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-07 18:08:38,339 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-07 18:08:38,358 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-07 18:08:38,366 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-07 18:08:45,795 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.InvalidOperationException: Unable to resolve service for type 'AgiletyFramework.BusinessServices.LogService' while attempting to activate 'AgiletyFramework.WebApi.Controllers.LogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method443(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-07 18:11:43,634 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-07 18:11:43,722 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-07 18:11:43,725 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-07 18:11:43,728 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-07 18:12:04,545 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.InvalidOperationException: Unable to resolve service for type 'AgiletyFramework.BusinessServices.LogService' while attempting to activate 'AgiletyFramework.WebApi.Controllers.LogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method443(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-07 18:13:28,119 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-07 18:13:28,209 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-07 18:13:28,213 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-07 18:13:28,215 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-07 18:13:41,321 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.InvalidOperationException: Unable to resolve service for type 'AgiletyFramework.BusinessServices.LogService' while attempting to activate 'AgiletyFramework.WebApi.Controllers.LogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method443(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-07 18:14:23,844 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.InvalidOperationException: Unable to resolve service for type 'AgiletyFramework.BusinessServices.LogService' while attempting to activate 'AgiletyFramework.WebApi.Controllers.LogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method443(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-07 18:14:42,138 [19] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.InvalidOperationException: Unable to resolve service for type 'AgiletyFramework.BusinessServices.LogService' while attempting to activate 'AgiletyFramework.WebApi.Controllers.LogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method457(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-07 18:14:50,955 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+WHERE [u].[Name] = N'tempName' 
+
+2024-04-07 18:15:34,430 [7] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at lambda_method469(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at AgiletyFramework.WebApi.Controllers.TestController.DbContextTest() in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi\Controllers\TestController.cs:line 49
+   at lambda_method458(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-07 18:16:18,698 [20] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.InvalidOperationException: Unable to resolve service for type 'AgiletyFramework.BusinessServices.LogService' while attempting to activate 'AgiletyFramework.WebApi.Controllers.LogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method443(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-07 18:17:28,900 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-07 18:17:29,068 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-07 18:17:29,073 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-07 18:17:29,078 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-07 18:17:51,438 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (36ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-07 18:17:51,560 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-07 18:17:53,378 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-07 18:17:53,385 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-07 18:17:54,277 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY 
+
+2024-04-07 18:17:54,280 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-07 18:17:54,959 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-07 18:17:54,964 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-07 18:18:13,600 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-07 18:18:13,689 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-07 18:18:13,692 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-07 18:18:13,694 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-07 18:19:32,863 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-07 18:19:32,947 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-07 18:19:32,950 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-07 18:19:32,952 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-07 18:20:50,009 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-07 18:20:50,103 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-07 18:20:50,107 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-07 18:20:50,108 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-07 18:21:05,593 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (35ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-07 18:21:05,703 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-07 18:21:54,147 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [?] - An unhandled exception has occurred while executing the request. 
+System.InvalidOperationException: Unable to resolve service for type 'AgiletyFramework.BusinessServices.LogService' while attempting to activate 'AgiletyFramework.WebApi.Controllers.LogController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method560(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at AgiletyFramework.WebCore.DownloadFileExtend.DownloadImagesMiddleware.InvokeAsync(HttpContext context) in D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebCore\DownloadFileExtend\DownloadImagesMiddleware.cs:line 61
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-04-07 18:23:09,760 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-07 18:23:09,870 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-07 18:23:09,873 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-07 18:23:09,876 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-07 18:23:13,441 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (46ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-07 18:23:13,546 [5] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-07 18:27:26,635 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-07 18:27:26,735 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-07 18:27:26,738 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-07 18:27:26,740 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-07 18:27:32,540 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (33ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-07 18:27:32,648 [7] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-07 18:27:41,656 [9] WARN  AgiletyFramework.WebApi.Controllers.LogController [68] - 2024/4/7 18:27:40_抛出一个异常 
+
+2024-04-07 18:27:45,555 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Int32), @p8='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [SystemLog] ([CreateTime], [Date], [Exception], [Level], [Logger], [Message], [ModifyTime], [Status], [Thread])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8); 
+
+2024-04-07 18:28:08,560 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[CreateTime], [s].[Date], [s].[Exception], [s].[Level], [s].[Logger], [s].[Message], [s].[ModifyTime], [s].[Status], [s].[Thread]
+FROM [SystemLog] AS [s]
+ORDER BY [s].[CreateTime] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-07 18:28:08,574 [9] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SystemLog] AS [s] 
+
+2024-04-07 18:31:02,263 [3] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [s].[Id], [s].[CreateTime], [s].[Date], [s].[Exception], [s].[Level], [s].[Logger], [s].[Message], [s].[ModifyTime], [s].[Status], [s].[Thread]
+FROM [SystemLog] AS [s]
+ORDER BY [s].[CreateTime] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-07 18:31:02,271 [3] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [SystemLog] AS [s] 
+
+2024-04-07 20:19:54,035 [77] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (15ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-07 20:19:54,138 [77] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-07 20:23:10,802 [66] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-07 20:23:10,815 [66] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 

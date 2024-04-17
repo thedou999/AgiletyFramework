@@ -1,0 +1,218 @@
+
+2024-04-06 19:44:39,499 [1] INFO  Microsoft.Hosting.Lifetime [?] - Now listening on: http://localhost:5108 
+
+2024-04-06 19:44:39,756 [1] INFO  Microsoft.Hosting.Lifetime [0] - Application started. Press Ctrl+C to shut down. 
+
+2024-04-06 19:44:39,762 [1] INFO  Microsoft.Hosting.Lifetime [0] - Hosting environment: Development 
+
+2024-04-06 19:44:39,766 [1] INFO  Microsoft.Hosting.Lifetime [0] - Content root path: D:\programSoftware\file\c#\ASP.NET Core\AgiletyFramework\AgiletyFramework.WebApi 
+
+2024-04-06 19:50:15,598 [3] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (94ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 19:50:15,847 [3] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 19:50:16,056 [23] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 19:50:16,066 [23] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 19:50:46,251 [15] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 19:50:46,290 [15] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 19:51:01,148 [26] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 19:51:01,155 [26] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 19:51:03,775 [27] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 19:51:03,779 [27] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 19:51:04,841 [26] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 19:51:04,845 [26] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 19:51:45,813 [25] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 19:51:45,828 [25] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 19:51:49,051 [31] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY 
+
+2024-04-06 19:51:49,058 [31] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 19:51:49,772 [29] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 19:51:49,779 [29] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 19:51:51,035 [29] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 19:51:51,039 [29] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 20:02:55,870 [71] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 20:02:55,876 [71] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 20:02:59,639 [72] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 20:02:59,646 [72] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 20:03:02,706 [72] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 20:03:02,710 [72] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 20:03:03,691 [71] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY 
+
+2024-04-06 20:03:03,696 [71] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 20:03:04,148 [72] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 20:03:04,151 [72] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 20:03:04,587 [72] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 20:03:04,590 [72] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 20:03:07,017 [71] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 20:03:07,023 [71] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 20:03:08,031 [71] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY 
+
+2024-04-06 20:03:08,039 [71] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 20:03:08,485 [73] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 20:03:08,488 [73] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 20:03:09,374 [73] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 20:03:09,377 [73] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 
+
+2024-04-06 20:07:34,102 [89] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [u].[Id], [u].[Address], [u].[CreateTime], [u].[Email], [u].[Gender], [u].[Imageurl], [u].[LastLoginTime], [u].[Mobile], [u].[ModifyTime], [u].[Name], [u].[Password], [u].[Phone], [u].[QQ], [u].[Status], [u].[UserType], [u].[WeChat]
+FROM [User] AS [u]
+ORDER BY [u].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY 
+
+2024-04-06 20:07:34,119 [89] INFO  Microsoft.EntityFrameworkCore.Database.Command [?] - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [User] AS [u] 

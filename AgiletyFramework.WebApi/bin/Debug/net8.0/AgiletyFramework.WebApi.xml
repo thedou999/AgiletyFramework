@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AgiletyFramework.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:AgiletyFramework.WebApi.Controllers.TestController.#ctor(Microsoft.Extensions.Logging.ILogger{AgiletyFramework.WebApi.Controllers.TestController},Autofac.IComponentContext,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+            <param name="componentContext"></param>
+            <param name="mapper"></param>
+        </member>
+    </members>
+</doc>
